@@ -1,0 +1,9 @@
+2014-10-18 22:08:15 Error: [MissingControllerException] Controller class TutorialController could not be found.
+Exception Attributes: array (
+  'class' => 'TutorialController',
+  'plugin' => NULL,
+)
+Request URL: /tutorial/
+Stack Trace:
+#0 /Users/ScotterC/code/php-tutorial/tutorial/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
