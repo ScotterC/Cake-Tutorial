@@ -1,0 +1,43 @@
+# Ignore private folder
+/tutorial/private/*
+!/tutorial/private/empty
+
+# Ignore packed asset files
+/tutorial/webroot/css/packed/*
+!tutorial/webroot/css/packed/.htaccess
+/tutorial/webroot/js/packed/*
+!tutorial/webroot/js/packed/.htaccess
+
+.DS_Store
+
+# Cake TMP Dirs
+/tutorial/tmp/*
+!/tutorial/tmp/
+
+/tutorial/tmp/cache/*
+!/tutorial/tmp/cache/
+!/tutorial/tmp/cache/empty
+
+/tutorial/tmp/cache/models/*
+!/tutorial/tmp/cache/models/
+!/tutorial/tmp/cache/models/empty
+
+/tutorial/tmp/cache/persistent/*
+!/tutorial/tmp/cache/persistent/
+!/tutorial/tmp/cache/persistent/empty
+
+/tutorial/tmp/cache/views/*
+!/tutorial/tmp/cache/views/
+!/tutorial/tmp/cache/views/empty
+
+/tutorial/tmp/logs/*
+!/tutorial/tmp/logs/
+!/tutorial/tmp/logs/empty
+
+/tutorial/tmp/sessions/*
+!/tutorial/tmp/sessions/
+!/tutorial/tmp/sessions/empty
+
+/tutorial/tmp/tests/*
+!/tutorial/tmp/tests/
+!/tutorial/tmp/tests/empty
